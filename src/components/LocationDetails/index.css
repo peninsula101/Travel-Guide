@@ -1,0 +1,38 @@
+.list-container {
+  list-style-type: none;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px 48px 0;
+}
+
+.location-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px;
+}
+
+.img {
+  width: 100%;
+}
+
+.location-info-container {
+  padding: 10px;
+}
+
+.location-head {
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: left;
+}
+
+.location-info {
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: left;
+}
